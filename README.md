@@ -6,8 +6,8 @@ using *Pulumi*
 **MySQL**, free and open source widely used relational database management system (RDBMS).\
 **Minikube** is local Single-Node Kubernetes Cluster, focusing on making it easy to learn and develop for Kubernetes.
 
-***Pulumi.yaml*** : defines the project\
-***__main.py__*** : is the Pulumi Program, that contains/define stack resources.
+***Pulumi.yaml*** : that file define the project\
+***__main.py__*** : is the Pulumi (Python) Program file, that contains/define stack resources.
 
 
 `kubectl config set-context pulumi-context --cluster=pulumi-cluster --user=pulumi-user`\
